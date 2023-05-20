@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:ital,wght@1,200&family=Bebas+Neue&family=Gloock&family=Inconsolata&family=Labrada:wght@100;200&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital@1&display=swap');
+
+.text-portofolio {
+    font-family: 'poppins', Black 900 italic;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.portofolio img{
+    height: 200px;
+    padding: 10px;
+    filter: brightness(0.7);
+    border-radius: 30px;
+    width: 100%;
+    transition:.5s ease, filter 0.3s;
+    overflow: hidden;
+}
+
+.portofolio img:hover{
+    transform: scale(1.1);
+    filter: brightness(70%);
+}
+
+.layer{
+    position: absolute;
+    top: 20px;
+
+}
+
