@@ -12,7 +12,7 @@ class Header extends Component {
                         <div className="row">
                             <div className="col-md-6">
                                 <a className="text-white judul-header p-5 navbar-brand" href="#">
-                                    Portofolio.
+                                    Portfolio.
                                 </a>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ class Header extends Component {
 
                                             <li className="nav-item">
                                                 <a className="nav-link text-white" href="#portofolio">
-                                                    Portofolio
+                                                    Portfolio
                                                 </a>
                                             </li>
 
