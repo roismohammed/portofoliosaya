@@ -8,13 +8,25 @@
 
 .text-about {
     margin-top: 200px;
-    font-family: 'poppins',  900 italic;
-    font-weight: bold;
+
 }
 
 @media screen and (max-width:600px) {
-    .about-foto{
+    .about-foto {
         position: relative;
         left: 0px;
+        top: -10px;
+        width: 480px;
+        height: 400px;
+    }
+
+    .text-about {
+        position: relative;
+        top: -240px;
+    }
+
+    #tombol-about {
+        position: relative;
+        top: -255px;
     }
 }

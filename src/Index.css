@@ -72,6 +72,12 @@
    
 }
 
+@media screen and (max-width:600px) {
+  .box{
+    margin-top: -70px;
+  }
+}
+
 /* .potoku:Hover {
     transform: scale(1.2);
     transition: all 2s;

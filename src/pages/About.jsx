@@ -19,22 +19,25 @@ class About extends Component {
                         <div className="col-md-7 p-5 pt-5">
                             <div className="text-about text-white">
                                 <h1
-                                    data-aos="fade-down-left"
-                                    data-aos-duration="1500"
+                                    // data-aos="fade-down-left"
+                                    // data-aos-duration="1500"
                                     className="text">About<span style={{ color: '#02E7FD' }} > Me</span>
                                 </h1>
                                 <h4 data-aos="fade-left"
                                     data-aos-duration="1500"
                                     className="text">Frontend Developer!</h4>
                                 <p data-aos="fade-left"
-                                    data-aos-duration="1500" >data-aos-duration="1500"
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolores commodi quibusdam eligendi culpa voluptatibus voluptate alias dolorum modi, molestiae aut est tempore repellat, libero cum quis doloremque eius a?
+                                    data-aos-duration="1500" >Hello, my name is Muhammad Rois. I am a Software Engineer based in Indonesia with expertise in development using JavaScript programming language and the Laravel Framework.
+
+                                    I also have experience in designing and implementing databases, as well as integrating systems with third-party services such as APIs and other platforms.
                                 </p>
                             </div>
 
-                            <div data-aos="fade-up-left"
-                                data-aos-duration="1500" className=" pt-3 ">
-                                <button className="tombol text">
+                            <div
+                                // data-aos="fade-up-left"
+                                // data-aos-duration="1500"
+                                 className=" pt-3">
+                                <button className="tombol text" id="tombol-about">
                                     READ MORE
                                 </button>
                             </div>

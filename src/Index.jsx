@@ -31,7 +31,14 @@ class Index extends Component {
                                         />
                                     </span>
                                 </h3>
-                                <p className="deskripsi  animate__animated animate__slideInDown ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus repellat assumenda suscipit ab dignissimos dolores nostrum veritatis ad labore commodi numquam, quaerat at aperiam eius ipsa ullam culpa! A, consequuntur.z</p>
+                                <p className="deskripsi  animate__animated animate__slideInDown ">I'm a Software Engineer from Indonesia using javascript and Laravel Framework.
+                                    <p>Currently, I am working as</p></p>
+
+                                <ul>
+                                    <li> Founder Diskusi Koding. Platform for sharing about programming.</li>
+                                    <li>How to reach me <a href="id.roismohammed@gmail.com">id.roismohammed@gmail.com</a></li>
+                                </ul>
+                                <p>Need a website or apps ? contact me to start business.</p>
 
                                 <div className=" animate__animated animate__slideInDown bungkus-icon">
                                     <div className="menu-icon ">

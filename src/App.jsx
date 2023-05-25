@@ -16,8 +16,8 @@ function App() {
       <Index />
       <About />
       <Services/>
-      <Portofolio/>
-      <Contact/>
+      {/* <Portofolio/> */}
+      {/* <Contact/> */}
     </div>
   )
 }
