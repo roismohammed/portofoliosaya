@@ -69,13 +69,20 @@
     height: 660px;
     margin-top: -160px;
     margin-left: -80px;
-   
+
 }
 
 @media screen and (max-width:600px) {
-  .box{
-    margin-top: -70px;
-  }
+    .box {
+        margin-top: -70px;
+    }
+
+    .potoku {
+        position: relative;
+        top: 40px;
+        left: 50px;
+        width:500px;
+    }
 }
 
 /* .potoku:Hover {

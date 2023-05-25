@@ -8,25 +8,14 @@
 
 .text-about {
     margin-top: 200px;
-
+   
 }
 
 @media screen and (max-width:600px) {
-    .about-foto {
+    .about-foto{
         position: relative;
         left: 0px;
-        top: -10px;
+        top: -0px;
         width: 480px;
-        height: 400px;
-    }
-
-    .text-about {
-        position: relative;
-        top: -240px;
-    }
-
-    #tombol-about {
-        position: relative;
-        top: -255px;
     }
 }

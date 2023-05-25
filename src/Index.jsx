@@ -82,8 +82,7 @@ class Index extends Component {
 
                         <div className="col-md-5 ">
                             <img
-
-                                height={'500px'}
+                            className="potoku"
                                 src="src/img/rois.png" />
                         </div>
                     </div>
