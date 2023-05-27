@@ -16,7 +16,7 @@
     color: aliceblue;
 }
 
-@media screen and (max-width:600px) {
+/* @media screen and (max-width:600px) {
     .item-header{
         margin-left: 20px;
         color: white;
@@ -25,4 +25,4 @@
     .judul-header{
         margin-left: -15px;
     }
-}
+} */
