@@ -4,7 +4,7 @@ class Header extends Component {
     render() {
         return (
             <Fragment>
-                <nav className="p-2 navbar navbar-expand-lg fixed-top" style={{backgroundColor:'#20232F'}}>
+                <nav className="p-2 shadow-sm navbar navbar-expand-lg fixed-top" style={{backgroundColor:'#20232F'}}>
                     <div className="container-fluid">
                         <a className="text-white judul-header navbar-brand" href="/">
                             Portfolio
