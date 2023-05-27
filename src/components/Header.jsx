@@ -6,7 +6,7 @@ class Header extends Component {
             <Fragment>
                 <nav className="p-2 navbar navbar-expand-lg fixed-top" style={{backgroundColor:'#20232F'}}>
                     <div className="container-fluid">
-                        <a className="judul-header navbar-brand" href="/">
+                        <a className="text-white judul-header navbar-brand" href="/">
                             Portfolio
                         </a>
                         <button
