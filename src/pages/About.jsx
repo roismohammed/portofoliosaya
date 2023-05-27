@@ -27,9 +27,9 @@ class About extends Component {
                                     data-aos-duration="1500"
                                     className="text">Frontend Developer!</h4>
                                 <p data-aos="fade-left"
-                                    data-aos-duration="1500" >Hello, my name is Muhammad Rois. I am a Software Engineer based in Indonesia with expertise in development using JavaScript programming language and the Laravel Framework.
+                                    data-aos-duration="1500" >Halo, nama saya Muhammad Rois. Saya seorang Junior Front End  Programmer, keahlian dalam pengembangan menggunakan bahasa pemrograman JavaScript, Bootstrap dan ReactJS.
 
-                                    I also have experience in designing and implementing databases, as well as integrating systems with third-party services such as APIs and other platforms.
+                                    Saya juga memiliki pengalaman dalam mendesain dan mengimplementasikan basis data, serta mengintegrasikan sistem dengan layanan pihak ketiga seperti API dan platform lainnya.
                                 </p>
                             </div>
 

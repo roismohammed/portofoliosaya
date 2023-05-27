@@ -34,11 +34,13 @@ class Index extends Component {
                                 <p className="deskripsi  animate__animated animate__slideInDown ">I'm a Software Engineer from Indonesia using javascript and Laravel Framework.
                                     <p>Currently, I am working as</p></p>
 
-                                <ul>
+                                <ul className=" animate__animated animate__slideInDown ">
                                     <li> Founder Diskusi Koding. Platform for sharing about programming.</li>
-                                    <li>How to reach me <a href="id.roismohammed@gmail.com">id.roismohammed@gmail.com</a></li>
+                                    <li>
+                                        How to reach me id.roismohammed@gmail.com
+                                    </li>
                                 </ul>
-                                <p>Need a website or apps ? contact me to start business.</p>
+                                <p className="  animate__animated animate__slideInDown ">Need a website or apps ? contact me to start business.</p>
 
                                 <div className=" animate__animated animate__slideInDown bungkus-icon">
                                     <div className="menu-icon ">
@@ -82,7 +84,7 @@ class Index extends Component {
 
                         <div className="col-md-5 ">
                             <img
-                            className="potoku"
+                                className="potoku"
                                 src="src/img/rois.png" />
                         </div>
                     </div>

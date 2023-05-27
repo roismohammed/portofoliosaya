@@ -63,7 +63,7 @@ class Contact extends Component {
                                     id="myTextarea"
                                     cols="20"
                                     rows="10"
-                                    className=" form-control"
+                                    className="form-control"
                                     placeholder="Your Message"
                                 ></textarea>
                                 <button className="tombol-contact" id="tombol-contact">
