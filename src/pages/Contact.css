@@ -58,8 +58,8 @@ input {
 
 @media screen and (max-width:600px) {
     #myTextarea {
-        width: 380px;
-        margin-left: 45px;
+        width: 215px;
+        margin-left: 50px;
     }
 
     #tombol-contact{
