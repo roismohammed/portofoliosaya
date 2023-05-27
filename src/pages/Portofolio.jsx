@@ -3,7 +3,7 @@ import './Portofolio.css'
 class Portofolio extends Component {
     render() {
         return (
-            <div id="portofolio" style={{ minHeight: '100vh',backgroundColor: 'rgb(50,55,68)' }} >
+            <div id="portfolio" style={{ minHeight: '100vh',backgroundColor: 'rgb(50,55,68)' }} >
                 <div className="container">
                     <div className="row portofolio text-white p-5">
                         <h1 data-aos="fade-down"
