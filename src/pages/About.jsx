@@ -27,16 +27,17 @@ class About extends Component {
                                     data-aos-duration="1500"
                                     className="text">Frontend Developer!</h4>
                                 <p data-aos="fade-left"
-                                    data-aos-duration="1500" >Halo, nama saya Muhammad Rois. Saya seorang Junior Front End  Programmer, keahlian dalam pengembangan menggunakan bahasa pemrograman JavaScript, Bootstrap dan ReactJS.
+                                    data-aos-duration="1500" >
+                                    Hello, my name is Muhammad Rois. I am a Junior Front-End Programmer with expertise in developing using programming languages such as JavaScript, Bootstrap, and ReactJS.
 
-                                    Saya juga memiliki pengalaman dalam mendesain dan mengimplementasikan basis data, serta mengintegrasikan sistem dengan layanan pihak ketiga seperti API dan platform lainnya.
+                                    I also have experience in designing and implementing databases, as well as integrating systems with third-party services like APIs and other platforms.
                                 </p>
                             </div>
 
                             <div
                                 // data-aos="fade-up-left"
                                 // data-aos-duration="1500"
-                                 className=" pt-3">
+                                className=" pt-3">
                                 <button className="tombol text" id="tombol-about">
                                     READ MORE
                                 </button>
