@@ -6,11 +6,11 @@ class Header extends Component {
             <Fragment>
                 <nav className=" shadow-sm navbar navbar-expand-lg fixed-top" id="header" style={{backgroundColor:'#20232F'}}>
                     <div className="container-fluid">
-                        <a className="text-white judul-header navbar-brand" href="/">
+                        <a className="text-white judul-header navbar-brand " href="/">
                             Portfolio
                         </a>
                         <button
-                            className="navbar-toggler"
+                            className="navbar-toggler btn-primary"
                             type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarSupportedContent"
@@ -20,7 +20,7 @@ class Header extends Component {
                         >
                             <span className="navbar-toggler-icon" />
                         </button>
-                        <div className=" item-header collapse navbar-collapse" id="navbarSupportedContent">
+                        <div className=" item-header collapse navbar-collapse justifiy-content-end" id="navbarSupportedContent">
                             <ul className="gap-4 navbar-nav me-auto mb-2 mb-lg-0">
                                 <li className=" nav-item">
                                     <a className="text-white nav-link active" aria-current="page" href="#">
