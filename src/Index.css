@@ -3,6 +3,11 @@
 .box{
     margin-top: 60px;
 }
+
+html body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
 .text {
     font-family: 'poppins', Black 900 italic;
     font-weight: bold;

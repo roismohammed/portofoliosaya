@@ -9,18 +9,18 @@ class About extends Component {
                 <div className="container" id="about" >
                     <div className="row">
                         <div className="col-md-4">
-                            {/* <img
+                            <img
                                 data-aos="fade-right"
                                 data-aos-duration="1500"
                                 className="about-foto pt-5"
-                                src="src/img/rois.png" alt="" /> */}
+                                src="src/img/rois.png" alt="" />
                         </div>
 
                         <div className="col-md-7 p-5 pt-5">
                             <div className="text-about text-white">
                                 <h1
-                                    // data-aos="fade-down-left"
-                                    // data-aos-duration="1500"
+                                    data-aos="fade-down-left"
+                                    data-aos-duration="1500"
                                     className="text">About<span style={{ color: '#02E7FD' }} > Me</span>
                                 </h1>
                                 <h4 data-aos="fade-left"
@@ -35,8 +35,8 @@ class About extends Component {
                             </div>
 
                             <div
-                                // data-aos="fade-up-left"
-                                // data-aos-duration="1500"
+                                data-aos="fade-up-left"
+                                data-aos-duration="1500"
                                 className=" pt-3">
                                 <button className="tombol text" id="tombol-about">
                                     READ MORE
