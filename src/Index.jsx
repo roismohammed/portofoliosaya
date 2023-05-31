@@ -82,11 +82,11 @@ class Index extends Component {
                             </div>
                         </div>
 
-                        <div className="col-md-4 ">
+                        {/* <div className="col-md-4 ">
                             <img
                                 className="potoku"
                                 src="src/img/rois.png" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </Guest>
