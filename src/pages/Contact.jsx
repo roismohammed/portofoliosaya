@@ -11,7 +11,7 @@ class Contact extends Component {
                                 data-aos-easing="linear"
                                 data-aos-duration="1500" className="text-contact text-white  text-center">Contact<span style={{ color: '#02E7FD', fontWeight: 'bold' }} > Me!</span></h1>
 
-                            <div className="col-md-4"
+                            <div className="col-md-6"
                                 data-aos="fade-up"
                                 data-aos-easing="linear"
                                 data-aos-duration="1500" >
@@ -21,18 +21,6 @@ class Contact extends Component {
                                     className="form-control"
                                     id="myinput"
                                 />
-                                <label htmlFor=""></label>
-                                <input type="text"
-                                    placeholder="Mobile Number"
-                                    className="form-control"
-                                    id="myinput"
-                                />
-                            </div>
-
-                            <div className="col-md-4"
-                                data-aos="fade-up"
-                                data-aos-easing="linear"
-                                data-aos-duration="1500" >
                                 <label htmlFor=""></label>
                                 <input type="text"
                                     placeholder="Email Address"
@@ -47,17 +35,6 @@ class Contact extends Component {
                                     id="myinput"
                                 />
 
-
-                            </div>
-
-
-                        </div>
-
-                        <div className="row  d-flex justify-content-center">
-                            <div className="col-md-4"
-                                data-aos="fade-up"
-                                data-aos-easing="linear"
-                                data-aos-duration="1500">
                                 <textarea
                                     name=""
                                     id="myTextarea"
@@ -66,11 +43,16 @@ class Contact extends Component {
                                     className="form-control"
                                     placeholder="Your Message"
                                 ></textarea>
-                                <button className="tombol-contact" id="tombol-contact">
-                                    Send Message
-                                </button>
+                                <div className="b-tombol">
+                                    <button className=" tombol-contact " >
+                                        Send Message
+                                    </button>
+                                </div>
                             </div>
                         </div>
+
+
+
                     </div>
                 </div>
             </Fragment>
