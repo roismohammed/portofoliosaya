@@ -13,7 +13,7 @@ class About extends Component {
                                 data-aos="fade-right"
                                 data-aos-duration="1500"
                                 className="about-foto pt-5"
-                                src="src/img/rois.png" alt="" />
+                                src="./rois.png" alt="" />
                         </div>
 
                         <div className="col-md-7 p-5 pt-5">
