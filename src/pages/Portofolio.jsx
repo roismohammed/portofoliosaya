@@ -14,8 +14,8 @@ class Portofolio extends Component {
                             data-aos="fade-up"
                             data-aos-easing="linear"
                             data-aos-duration="1500" >
-                            <img src="src/img/1.jpg" className="card-img-top " />
-                            <img src="src/img/2.jpeg" className="card-img-top" />
+                            <img src="./1.jpg" className="card-img-top " />
+                            <img src="./2.jpeg" className="card-img-top" />
 
 
                         </div>
@@ -24,8 +24,8 @@ class Portofolio extends Component {
                             data-aos="fade-up"
                             data-aos-easing="linear"
                             data-aos-duration="1500" >
-                            <img src="src/img/3.jpeg" className="card-img-top" />
-                            <img src="src/img/4.jpeg" className="card-img-top" />
+                            <img src="./3.jpeg" className="card-img-top" />
+                            <img src="./4.jpeg" className="card-img-top" />
 
                         </div>
 
@@ -33,8 +33,8 @@ class Portofolio extends Component {
                             data-aos="fade-up"
                             data-aos-easing="linear"
                             data-aos-duration="1500" >
-                            <img src="src/img/5.jpeg" className="card-img-top" />
-                            <img src="src/img/6.png" className="card-img-top" />
+                            <img src="./5.jpeg" className="card-img-top" />
+                            <img src="./6.png" className="card-img-top" />
 
                         </div>
 
