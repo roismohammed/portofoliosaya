@@ -3,6 +3,10 @@
 #header{
     padding: 12px;
 }
+
+.stiky-header{
+    background-color: #20232F;
+}
 .judul-header {
     font-family: 'poppins', white 900 italic;
     font-weight: bold;

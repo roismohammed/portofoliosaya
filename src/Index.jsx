@@ -31,7 +31,7 @@ class Index extends Component {
                                         />
                                     </span>
                                 </h3>
-                                <p className="deskripsi  animate__animated animate__slideInDown ">I'm a Software Engineer from Indonesia using javascript and Laravel Framework.
+                                <p className="deskripsi  animate__animated animate__slideInDown ">"I am a junior Software Engineer from Indonesia using JavaScript and the React.js Framework"
                                     <p>Currently, I am working as</p></p>
 
                                 <ul className=" animate__animated animate__slideInDown ">
