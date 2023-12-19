@@ -19,24 +19,22 @@ class About extends Component {
                         <div className="col-md-7 p-5 pt-5">
                             <div className="text-about text-white">
                                 <h1
-                                    data-aos="fade-down-left"
+                                    data-aos="fade-down"
                                     data-aos-duration="1500"
                                     className="text">About<span style={{ color: '#02E7FD' }} > Me</span>
                                 </h1>
-                                <h4 data-aos="fade-left"
+                                <h4 data-aos="fade-down"
                                     data-aos-duration="1500"
                                     className="text">Frontend Developer!</h4>
                                 <p data-aos="fade-left"
                                     data-aos-duration="1500" >
-                                    Hello, my name is Muhammad Rois. I am a Junior Front-End Programmer with expertise in developing using programming languages such as JavaScript, Bootstrap, and ReactJS.
-
-                                    I also have experience in designing and implementing databases, as well as integrating systems with third-party services like APIs and other platforms.
+                                  Halo, nama saya Muhammad Rois. Saya seorang Junior Front-End Programmer dengan keahlian dalam pengembangan menggunakan bahasa pemrograman seperti JavaScript, Bootstrap, dan ReactJS. Saya juga memiliki pengalaman dalam merancang dan mengimplementasikan basis data, serta mengintegrasikan sistem dengan layanan pihak ketiga seperti API dan platform lainnya.
                                 </p>
                             </div>
 
                             <div
-                                data-aos="fade-up-left"
-                                data-aos-duration="1500"
+                                data-aos="fade-up"
+                                data-aos-duration="1200"
                                 className=" pt-3">
                                 <button className="tombol text" id="tombol-about">
                                     READ MORE

@@ -6,6 +6,9 @@
 
 .stiky-header{
     background-color: #20232F;
+    transition: .3 ease-out;
+    transition: .3s ease-in-out;
+    padding-top: 30px;
 }
 .judul-header {
     font-family: 'poppins', white 900 italic;

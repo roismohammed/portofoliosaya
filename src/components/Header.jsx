@@ -1,66 +1,71 @@
-import { Component, Fragment } from "react";
+import { Fragment, useState } from "react";
 import './Header.css'
-class Header extends Component {
-    render() {
-        return (
-            <Fragment>
-                <nav className=" shadow-sm navbar navbar-expand-lg fixed-top" id="header" style={{backgroundColor:'#20232F'}}>
-                    <div className="container-fluid">
-                        <a className="text-white judul-header navbar-brand " href="/">
-                            Portfolio
-                        </a>
-                        <button
-                            className="navbar-toggler btn-primary"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent"
-                            aria-controls="navbarSupportedContent"
-                            aria-expanded="false"
-                            aria-label="Toggle navigation"
-                        >
-                            <span className="navbar-toggler-icon" />
-                        </button>
-                        <div className=" item-header collapse navbar-collapse justifiy-content-end" id="navbarSupportedContent">
-                            <ul className="gap-4 navbar-nav me-auto mb-2 mb-lg-0">
-                                <li className=" nav-item">
-                                    <a className="text-white nav-link active" aria-current="page" href="#">
-                                        Home
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="text-white nav-link" href="#about">
-                                        About
-                                    </a>
-                                </li>
-                                <li className="nav-item dropdown">
-                                    <a
-                                        className="text-white nav-link "
-                                        href="#services"
-                                    >
-                                        Services
-                                    </a>
-                                </li>
-                                <li className="nav-item">
-                                    <a className="text-white nav-link" href="#portfolio">
-                                        Portfolio
-                                    </a>
-                                </li>
+export default function Header() {
+    const [header, setHeader] = useState(false)
 
-                                <li className="nav-item">
-                                    <a className="text-white nav-link" href="#contact">
-                                        Contact
-                                    </a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-
-
-            </Fragment >
-        );
+    const changeNavbar = () => {
+        if (window.scrollY >= 50) {
+            setHeader(true)
+        } else {
+            setHeader(false)
+        }
     }
-}
 
-export default Header;
+    window.addEventListener('scroll',() => {
+        changeNavbar()
+    })
+    return (
+        <Fragment>
+            <nav className={header ? 'stiky-header navbar fixed-top navbar-expand-lg bg-body-tertiary navbar-dark p-3 shadow-sm' : 'navbar fixed-top navbar-expand-lg  p-4 bg-body-tertiary navbar-dark '}>
+                <div className="container">
+                    <a className="navbar-brand" href="#">
+                        Roess
+                    </a>
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span className="navbar-toggler-icon" />
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav gap-5 mb-2 mb-lg-0 ms-auto">
+                            <li className="nav-item">
+                                <a className="nav-link active" aria-current="page" href="#">
+                                    Home
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link" href="#about">
+                                    About
+                                </a>
+                            </li>
+
+                            <li className="nav-item">
+                                <a className="nav-link" href="#services">
+                                    Services
+                                </a>
+                            </li>
+
+                            <li className="nav-item">
+                                <a className="nav-link" href="#portfolio">
+                                    Project
+                                </a>
+                            </li>
+
+                            <li className="nav-item">
+                                <a className="nav-link " href="#contact">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </Fragment>
+    )
+}

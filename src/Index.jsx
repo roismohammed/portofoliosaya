@@ -15,6 +15,7 @@ class Index extends Component {
                         <div className="col-md-8 p-5 pt-5">
                             <div className="box text-white">
                                 <h3 data-aos="fade-down" className="text judul text-blue-600 animate__animated animate__slideInDown">Hello it's me</h3>
+
                                 <h1 className="text nama animate__animated animate__fadeInUp">Muhammad Rois</h1>
                                 <h3 className="text  animate__animated animate__slideInDown" >And i'm a
                                     <span style={{ color: '#02E7FD' }}>
@@ -34,13 +35,13 @@ class Index extends Component {
                                 <p className="deskripsi  animate__animated animate__slideInDown ">"I am a junior Software Engineer from Indonesia using JavaScript and the React.js Framework"
                                     <p>Currently, I am working as</p></p>
 
-                                <ul className=" animate__animated animate__slideInDown ">
+                                {/* <ul className=" animate__animated animate__slideInDown ">
                                     <li> Founder Diskusi Koding. Platform for sharing about programming.</li>
                                     <li>
                                         How to reach me id.roismohammed@gmail.com
                                     </li>
-                                </ul>
-                                <p className="  animate__animated animate__slideInDown ">Need a website or apps ? contact me to start business.</p>
+                                </ul> */}
+                                {/* <p className="  animate__animated animate__slideInDown ">Need a website or apps ? contact me to start business.</p> */}
 
                                 <div className=" animate__animated animate__slideInDown bungkus-icon">
                                     <div className="menu-icon ">
