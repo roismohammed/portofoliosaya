@@ -18,7 +18,7 @@ export default function Header() {
         <Fragment>
             <nav className={header ? 'stiky-header navbar fixed-top navbar-expand-lg bg-body-tertiary navbar-dark p-3 shadow-sm' : 'navbar fixed-top navbar-expand-lg  p-4 bg-body-tertiary navbar-dark '}>
                 <div className="container">
-                    <a className="navbar-brand judul-header" href="#">
+                    <a className="navbar-brand judul-header" href="#" style={{ color: '#02E7FD' }}>
                         Roess
                     </a>
                     <button
@@ -34,8 +34,8 @@ export default function Header() {
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav gap-5 mb-2 mb-lg-0 ms-auto">
-                            <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">
+                            <li className="nav-item" >
+                                <a className="nav-link active" aria-current="page" href="#" style={{ color: '#02E7FD' }}>
                                     Home
                                 </a>
                             </li>

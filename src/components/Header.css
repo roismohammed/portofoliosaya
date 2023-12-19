@@ -11,9 +11,8 @@
     padding-top: 30px;
 }
 .judul-header {
-    font-family: 'poppins', white 900 italic;
+    font-family: 'poppins', #02E7FD 900 italic;
     font-weight: bold;
-    color: white;
     font-size: 35px;
 }
 
