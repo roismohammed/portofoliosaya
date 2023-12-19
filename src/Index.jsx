@@ -32,7 +32,7 @@ class Index extends Component {
                                         />
                                     </span>
                                 </h3>
-                                <p className="deskripsi  animate__animated animate__slideInDown ">"I am a junior Software Engineer from Indonesia using JavaScript and the React.js Framework"
+                                <p className="deskripsi  animate__animated animate__slideInDown ">""Saya seorang Software Engineer junior dari Indonesia yang menggunakan JavaScript dan Framework React.js" Saat ini, saya bekerja sebagai
                                     <p>Currently, I am working as</p></p>
 
                                 {/* <ul className=" animate__animated animate__slideInDown ">
