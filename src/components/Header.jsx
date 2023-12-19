@@ -18,7 +18,7 @@ export default function Header() {
         <Fragment>
             <nav className={header ? 'stiky-header navbar fixed-top navbar-expand-lg bg-body-tertiary navbar-dark p-3 shadow-sm' : 'navbar fixed-top navbar-expand-lg  p-4 bg-body-tertiary navbar-dark '}>
                 <div className="container">
-                    <a className="navbar-brand judul-header" href="#" style={{ color: '#02E7FD' }}>
+                    <a className="navbar-brand judul-header mx-md-5 " href="#" style={{ color: '#02E7FD',fontSize:'25px' }}>
                         Roess
                     </a>
                     <button
