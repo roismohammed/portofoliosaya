@@ -18,7 +18,7 @@ export default function Header() {
         <Fragment>
             <nav className={header ? 'stiky-header navbar fixed-top navbar-expand-lg bg-body-tertiary navbar-dark p-3 shadow-sm' : 'navbar fixed-top navbar-expand-lg  p-4 bg-body-tertiary navbar-dark '}>
                 <div className="container">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand judul-header" href="#">
                         Roess
                     </a>
                     <button
