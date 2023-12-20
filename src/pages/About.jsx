@@ -6,18 +6,18 @@ class About extends Component {
     render() {
         return (
             <div style={{ minHeight: '100vh', backgroundColor: 'rgb(50,55,68)' }}>
-                <div className="container" id="about" >
-                    <div className="row">
+                <div className="container " id="about" >
+                    <div className="row d-flex align-items-center justify-content-center h-100">
                         <div className="col-md-4">
                             <img
                                 width={'600'}
                                 data-aos="fade-right"
                                 data-aos-duration="1500"
-                                className="about-foto mt-5"
+                                className="about-foto "
                                 src="./roes.png" alt="" />
                         </div>
 
-                        <div className="col-md-7 p-5 pt-4">
+                        <div className="col-md-7 p-5 mt-5">
                             <div className="text-about text-white">
                                 <h1
                                     data-aos="fade-down"
