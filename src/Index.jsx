@@ -86,7 +86,7 @@ class Index extends Component {
                         <div className="col-md-4 ">
                             <img
                                 width={'680px'}
-                                className="potoku order-md-last"
+                                className="potoku order-md-last shadow"
                                 src="./roes.png" />
                         </div>
                     </div>
