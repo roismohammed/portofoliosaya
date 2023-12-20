@@ -27,7 +27,7 @@ class About extends Component {
                                 <h4 data-aos="fade-down"
                                     data-aos-duration="1300"
                                     className="text">Frontend Developer!</h4>
-                                <p data-aos="fade-left"
+                                <p data-aos="fade-up"
                                     data-aos-duration="1300" >
                                     Halo, nama saya Muhammad Rois. Saya seorang Junior Front-End Programmer dengan keahlian dalam pengembangan menggunakan bahasa pemrograman seperti JavaScript, Bootstrap, dan ReactJS. Saya juga memiliki pengalaman dalam merancang dan mengimplementasikan basis data, serta mengintegrasikan sistem dengan layanan pihak ketiga seperti API dan platform lainnya.
                                 </p>
