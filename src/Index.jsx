@@ -16,7 +16,7 @@ class Index extends Component {
                             <div className="box text-white">
                                 <h3 data-aos="fade-down" className="text judul text-blue-600 animate__animated animate__slideInDown">Hello it's me</h3>
 
-                                <h1 className="text nama animate__animated animate__fadeInUp">Muhammad Rois</h1>
+                                <h1 className="text nama animate__animated animate__slideInDown">Muhammad Rois</h1>
                                 <h3 className="text  animate__animated animate__slideInDown" >And i'm a
                                     <span style={{ color: '#02E7FD' }}>
                                         {/* Style will be inherited from the parent element */}

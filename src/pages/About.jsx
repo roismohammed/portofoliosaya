@@ -12,7 +12,7 @@ class About extends Component {
                             <img
                                 width={'600'}
                                 data-aos="fade-right"
-                                data-aos-duration="1500"
+                                data-aos-duration="1300"
                                 className="about-foto "
                                 src="./roes.png" alt="" />
                         </div>
@@ -21,14 +21,14 @@ class About extends Component {
                             <div className="text-about text-white">
                                 <h1
                                     data-aos="fade-down"
-                                    data-aos-duration="1500"
+                                    data-aos-duration="1300"
                                     className="text">About<span style={{ color: '#02E7FD' }} > Me</span>
                                 </h1>
                                 <h4 data-aos="fade-down"
-                                    data-aos-duration="1500"
+                                    data-aos-duration="1300"
                                     className="text">Frontend Developer!</h4>
                                 <p data-aos="fade-left"
-                                    data-aos-duration="1500" >
+                                    data-aos-duration="1300" >
                                     Halo, nama saya Muhammad Rois. Saya seorang Junior Front-End Programmer dengan keahlian dalam pengembangan menggunakan bahasa pemrograman seperti JavaScript, Bootstrap, dan ReactJS. Saya juga memiliki pengalaman dalam merancang dan mengimplementasikan basis data, serta mengintegrasikan sistem dengan layanan pihak ketiga seperti API dan platform lainnya.
                                 </p>
                             </div>
