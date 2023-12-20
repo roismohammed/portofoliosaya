@@ -9,12 +9,12 @@ class Contact extends Component {
                         <div className="row text-white p-5 d-flex justify-content-center">
                             <h1 data-aos="fade-down"
                                 data-aos-easing="linear"
-                                data-aos-duration="1500" className="text-contact text-white  text-center">Contact<span style={{ color: '#02E7FD', fontWeight: 'bold' }} > Me!</span></h1>
+                                data-aos-duration="1300" className="text-contact text-white  text-center">Contact<span style={{ color: '#02E7FD', fontWeight: 'bold' }} > Me!</span></h1>
 
                             <div className="col-md-6"
                                 data-aos="fade-up"
                                 data-aos-easing="linear"
-                                data-aos-duration="1500" >
+                                data-aos-duration="1300" >
                                 <label htmlFor=""></label>
                                 <input type="text"
                                     placeholder="Full Name"

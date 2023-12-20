@@ -10,12 +10,12 @@ class Services extends Component {
                     <div className="row text-white p-5">
                         <h1 data-aos="fade-down"
                             data-aos-easing="linear"
-                            data-aos-duration="1500" className="text-services text-white  text-center">Our <span style={{ color: '#02E7FD', fontWeight: 'bold' }} > Services</span></h1>
+                            data-aos-duration="1300" className="text-services text-white  text-center">Our <span style={{ color: '#02E7FD', fontWeight: 'bold' }} > Services</span></h1>
 
                         <div className="col-md-4  pt-5 "
                             data-aos="fade-up"
                             data-aos-easing="linear"
-                            data-aos-duration="1500" >
+                            data-aos-duration="1300" >
                                 {/* card */}
                             <div className="card text-center p-4 card-hover" style={{ backgroundColor: '#343745' }}>
                                 <div className="card-body ">
@@ -38,7 +38,7 @@ class Services extends Component {
                         <div className="col-md-4  pt-5"
                             data-aos="fade-up"
                             data-aos-easing="linear"
-                            data-aos-duration="1500"
+                            data-aos-duration="1300"
                         >
                             {/* card */}
                             <div className="card text-center p-4 card-hover" style={{ backgroundColor: '#343745' }}>
@@ -62,7 +62,7 @@ class Services extends Component {
                         <div className="col-md-4  pt-5 "
                             data-aos="fade-up"
                             data-aos-easing="linear"
-                            data-aos-duration="1500" >
+                            data-aos-duration="1300" >
                                 {/* card */}
                             <div className="card text-center p-4 card-hover" style={{ backgroundColor: '#343745' }}>
                                 <div className="card-body">
