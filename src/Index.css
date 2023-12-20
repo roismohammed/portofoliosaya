@@ -75,8 +75,7 @@ html body {
 }
 
 .potoku {
-    height: 500px;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: -100px;
 
 }
@@ -86,12 +85,12 @@ html body {
         margin-top: 5px;
     }
 
-    .potoku {
+    /* .potoku {
         position: relative;
         top: 40px;
         left: 50px;
         width: 500px;
-    }
+    } */
 }
 
 /* .potoku:Hover {
