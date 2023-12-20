@@ -103,12 +103,12 @@ html body {
         margin-top: 5px;
     }
 
-    /* .potoku {
+    .potoku {
         position: relative;
         top: 40px;
         left: 50px;
         width: 500px;
-    } */
+    }
 }
 
 /* .potoku:Hover {
