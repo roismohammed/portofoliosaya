@@ -86,7 +86,7 @@ class Index extends Component {
                         <div className="col-md-4 custom-animation ">
                             <img
                                 width={'680px'}
-                                className="potoku order-md-last shadow"
+                                className="potoku order-md-last "
                                 src="./roes.png" />
                         </div>
                     </div>
