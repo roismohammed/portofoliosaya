@@ -12,7 +12,7 @@ class Index extends Component {
             <Guest>
                 <div style={{ minHeight: '100vh' }} className="container">
                     <div className="row">
-                        <div className="col-md-8 p-5 mt-4">
+                        <div className="col-md-8 p-5 mt-2">
                             <div className="box text-white">
                                 <h3 data-aos="fade-down" className="text judul text-blue-600 animate__animated animate__slideInDown">Hello it's me</h3>
 
