@@ -76,7 +76,7 @@ html body {
 
 .potoku {
     margin-top: -20px;
-    margin-left: -125px;
+    margin-left: -150px;
     
 
 }
@@ -106,7 +106,7 @@ html body {
     .potoku {
         position: relative;
         top: 40px;
-        left: 50px;
+        left: 70px;
         width: 500px;
     }
 }
