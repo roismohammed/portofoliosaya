@@ -33,7 +33,7 @@ export default function Header() {
                         <span className="navbar-toggler-icon" />
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav gap-5 mb-2 mb-lg-0 ms-auto">
+                        <ul className="navbar-nav gap-5 mb-2 mb-lg-0 ms-auto mx-5">
                             <li className="nav-item" >
                                 <a className="nav-link active" aria-current="page" href="#" style={{ color: '#02E7FD' }}>
                                     Home
